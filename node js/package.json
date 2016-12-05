@@ -1,0 +1,19 @@
+{
+  "name": "fd",
+  "version": "3.10.9",
+  "description": "node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "js"
+  ],
+  "author": "Gaukhar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mysql": "^2.12.0"
+  }
+}
