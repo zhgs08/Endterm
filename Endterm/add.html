@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Application</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html" class="active">Male</a></li>
+							<li><a href="index.html">Female</a></li>
+							<li><a href="index.html">Children</a></li>
+							<li><a href="index.html">Country</a></li>
+							<li><a href="index.html">Add</a></li>
+						</ul>
+					</nav>
+
+			<form action="insert.php" method="POST" class="insert">
+				<div>
+					<input name="name" type="text" placeholder="Name" id="input">
+					<input name="surname" type="text" placeholder="Surname" id="input">
+					<input name="age" type="text" placeholder="Age" id="input">
+					<input name="gender" type="text" placeholder="Gender" id="input">
+					<input name="country" type="text" placeholder="Country" id="input">
+					<button class="submit" id="submit" type = "submit">Submit</button>
+				</div>
+				
+			</form>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
